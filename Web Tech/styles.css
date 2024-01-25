@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #fff;
+    overflow: hidden;
+    width: 100vw;
+    position: fixed;
+    color: white; /* Set text color to contrast with the background */
+    z-index: 1000; /* Set a high z-index to ensure the navbar stays on top of other elements */
+    height: 76px;
+    padding-top: 10px;
+}
+#word-format{
+    color: #ac7b01;
+    padding: 22px;
+    
+}
+.image-container {
+    
+     /* Set text color to contrast with the image */
+    color: #fff;
+    padding: 100px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Include padding in the total width/height */
+    
+    background: url('images/image3.png') center/cover ; 
+    background-position: 10% 35%;
+    z-index: -2;
+    width: 100vw;
+    height: 80vh;
+    background-position: top;
+    background-attachment: fixed;
+    
+}
+
+
+
+.text-overlay {
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Amiri', serif;
+    font-size: 45px;
+    letter-spacing: 10px;
+    /* width: 100vw;
+    height: cal(100vh-100px); */
+    z-index: 1; 
+    /* Add more styles as needed */
+}
+
+.left-link,
+.right-links {
+    float: left;
+}
+.left-link{
+    color: #ac7b01;
+    padding-left: 116px;
+}
+
+.left-link a,
+.right-links a, #right{
+    float: right;
+    top: 10px;
+    display: block;
+    color:black;
+    text-align:right;
+    padding: 22px 15px;
+    text-decoration: none;
+    font-size: small;
+
+}
+.right-link{
+    padding-right: 84px;
+}
+.right-links a {
+    float: right;
+}
+
+/* Change color on hover */
+.left-link a:hover,
+.right-links a:hover #right {
+    background-color: #ddd;
+    color: #ac7b01;
+}
+.section-2{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+.left{
+    background: url('images/flower.png') no-repeat;   
+    height: 500px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    margin-right: 70px;
+}
+.image1{
+    width: auto;
+    height: 551px;
+    margin-left: 3px;
+}
+
+.section-heading{
+    color: #fff;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 90px;
+    padding-left: 10px;
+}
+.section-subheading{
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 120px;
+    line-height: 28px;
+
+}
+
+.section-button{
+    color: #fff;
+    text-align: center;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    width: 180px;
+    height: 10px;
+    margin-top: 50px;
+    
+    padding: 15px 10px 20px 10px;;
+    border: 2.5px solid #ddd; /* Add a border around the box */
+    border-radius: 2px; /* Optional: Add rounded corners */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Optional: Add a subtle shadow */
+
+}
+/* #button-1{
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    
+}
+ */
+
+#symbol{
+    text-align: center;
+    font-family: 'Passion One', sans-serif;
+    font-size: 70px;
+    line-height: 0;
+    margin-top: 210px;
+    margin-bottom: -8px;
+    
+
+}
+#text-font{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Amiri', serif;
+
+}
+#jimmy{
+    color: #ac7b01;
+    font-size: 21px;
+    text-align: center;
+    font-family: 'Amiri', serif;
+
+}
+
+
+.image{
+    text-align: center;
+    justify-content: space-around; /* Adjust this property for different spacing */
+    margin: 0 20px; /* Adjust the margin for spacing on the sides */
+    
+}
+.image img {
+    border: 20px;
+    display: inline-block;
+    width: 80%; /* Adjust the width as needed */
+   }
+
+.outer-container{
+    background: url("images/image2.png") center/cover no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    height: 700px;
+    margin: 100px 97px ;
+    padding-top: 100px;
+}
+.inner-container{
+    margin-left: 611px;
+    background: url(images/flower.png) no-repeat;
+    height: 500px;
+    width: 300px;
+    background-position: center;
+    padding: 25px;
+
+    
+}
+
+.section-heading-2{
+    color: #fff;
+    letter-spacing: 10px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 65px;
+    padding-top: 110px;
+}
+.section-subheading-2{
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 0px;
+    text-align: center;
+    padding-top: 130px;
+    line-height: 30px;
+
+}
+
+
+.footer-section{
+    margin: 60px 94px;
+    background-color: #b6942f;
+    display: flex;
+    color: #fff;
+    height: 155px;
+    padding: 37px;
+    padding-left: 100px;
+  
+}
+.footer-section-1 {
+    flex: 1;
+    box-sizing: border-box;
+    padding-top: 63px;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: 'Amiri', serif;
+    position: relative;
+    padding-left: 26px;
+    max-width: 164px;
+}
+
+/* .footer-section-1:first-child::before */
+
+/*.footer-section-1:not(:last-child)::before{
+    content: '';
+    position: absolute;
+    height: 50%;
+    width: 1px; /* Width of the vertical divider 
+    background-color: #ddd; /* Color of the divider 
+    right: 0;
+}*/
+
+.border {
+
+    height: 50%;
+    width: 1px;
+    background-color: white;
+    margin-top: inherit;
+
+}
+
+.section-button-1{
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width: 180px;
+    height: 10px;
+    margin-top: 58px;
+    padding: 15px 20px 20px 10px;
+    border: 2.5px solid #ddd;
+    border-radius: 2px;
+    margin-right: 0px;
+    margin-left: 94px;
+
+}
