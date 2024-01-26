@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Roboto:wght@400;500&display=swap');
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+#right{
+    color: black;
+}
 
+#right:hover {
+    color: #aa944f;;
+}
 .navbar {
     background-color: #fff;
     overflow: hidden;
@@ -17,38 +23,35 @@ body {
     padding-top: 10px;
 }
 #word-format{
-    color: #ac7b01;
+    color: #aa944f;;
     padding: 22px;
     
 }
-.image-container {
+.image-container
+{
+  color: #fff;
+  padding: 100px;
+  box-sizing: border-box;
+  background: url('images/image3.png') center/cover;
     
-     /* Set text color to contrast with the image */
-    color: #fff;
-    padding: 100px; /* Adjust padding as needed */
-    box-sizing: border-box; /* Include padding in the total width/height */
-    
-    background: url('images/image3.png') center/cover ; 
-    background-position: 10% 35%;
-    z-index: -2;
-    width: 100vw;
-    height: 80vh;
-    background-position: top;
-    background-attachment: fixed;
-    
+  background-position: 10% 65%;
+  z-index: -2;
+  width: 100vw;
+  height: 85vh;
+  /* background-position: top; */
+  background-attachment: fixed;
 }
-
 
 
 .text-overlay {
     position: absolute;
     text-align: center;
-    top: 45%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Amiri', serif;
-    font-size: 45px;
-    letter-spacing: 10px;
+    font-size: 70px;
+    letter-spacing: 18px;
     /* width: 100vw;
     height: cal(100vh-100px); */
     z-index: 1; 
@@ -60,7 +63,7 @@ body {
     float: left;
 }
 .left-link{
-    color: #ac7b01;
+    color: #aa944f;;
     padding-left: 116px;
 }
 
@@ -71,7 +74,7 @@ body {
     display: block;
     color:black;
     text-align:right;
-    padding: 22px 15px;
+    padding: 22px 21px;
     text-decoration: none;
     font-size: small;
 
@@ -87,19 +90,19 @@ body {
 .left-link a:hover,
 .right-links a:hover #right {
     background-color: #ddd;
-    color: #ac7b01;
+    color: #aa944f;;
 }
 .section-2{
     
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 50px;
 
 }
 .left{
     background: url('images/flower.png') no-repeat;   
-    height: 500px;
-    width: 300px;
+    height: 530px;
+    width: 315px;
     background-size: cover;
     background-position: center;
     padding: 25px;
@@ -107,42 +110,41 @@ body {
 }
 .image1{
     width: auto;
-    height: 551px;
+    height: 580px;
     margin-left: 3px;
 }
 
 .section-heading{
     color: #fff;
-    text-align: center;
-    letter-spacing: 10px;
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 90px;
-    padding-left: 10px;
+  text-align: center;
+  letter-spacing: 12px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 90px;
+  padding-left: 10px;
 }
 .section-subheading{
     color: #fff;
     text-align: center;
     letter-spacing: 2px;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
     margin-top: 120px;
-    line-height: 28px;
+    line-height: 41px;
 
 }
 
 .section-button{
     color: #fff;
-    text-align: center;
-    margin-left: 50px;
-    font-family: 'Roboto', sans-serif;
-    width: 180px;
-    height: 10px;
-    margin-top: 50px;
-    
-    padding: 15px 10px 20px 10px;;
-    border: 2.5px solid #ddd; /* Add a border around the box */
-    border-radius: 2px; /* Optional: Add rounded corners */
+  text-align: center;
+  margin-left: 30px;
+  font-family: 'Roboto', sans-serif;
+  width: 219px;
+  height: 10px;
+  margin-top: 50px;
+  padding: 15px 10px 20px 10px;
+  border: 2px solid #ddd;
+  border-radius: 2px; /* Optional: Add rounded corners */
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Optional: Add a subtle shadow */
 
 }
@@ -156,22 +158,25 @@ body {
 
 #symbol{
     text-align: center;
-    font-family: 'Passion One', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 70px;
     line-height: 0;
     margin-top: 210px;
-    margin-bottom: -8px;
+    margin-bottom: 3%;
     
 
 }
 #text-font{
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
     font-family: 'Amiri', serif;
+    letter-spacing: 3px;
+    line-height: 64px;
+    margin-top: 46px;
 
 }
 #jimmy{
-    color: #ac7b01;
+    color: #aa944f;;
     font-size: 21px;
     text-align: center;
     font-family: 'Amiri', serif;
@@ -193,64 +198,80 @@ body {
 
 .outer-container{
     background: url("images/image2.png") center/cover no-repeat;
+    
     background-position: top;
     background-attachment: fixed;
-    height: 700px;
-    margin: 100px 97px ;
+    height: 554px;
+    margin: 154px 75px 85px;
     padding-top: 100px;
 }
 .inner-container{
-    margin-left: 611px;
-    background: url(images/flower.png) no-repeat;
-    height: 500px;
-    width: 300px;
-    background-position: center;
-    padding: 25px;
+    margin-left: 725px;
+  background: url(images/flower.png) no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+  height: 500px;
+  width: 272px;
+  background-position: center;
+  padding: 0px;
+  margin-top: -33px;
 
     
 }
 
 .section-heading-2{
-    color: #fff;
-    letter-spacing: 10px;
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 65px;
-    padding-top: 110px;
+  color: #fff;
+  letter-spacing: 12px;
+  font-size: 29px;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 42px;
+  padding-top: 92px;
 }
 .section-subheading-2{
     color: #fff;
-    letter-spacing: 4px;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 0px;
-    text-align: center;
-    padding-top: 130px;
-    line-height: 30px;
+  letter-spacing: 5px;
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  padding-left: 0px;
+  text-align: center;
+  padding-top: 109px;
+  line-height: 40px;
 
 }
-
+.section-button-2{
+    color: #fff;
+  text-align: center;
+  margin-left: 55px;
+  font-family: 'Roboto', sans-serif;
+  width: 160px;
+  height: 10px;
+  margin-top: 52px;
+  padding: 5px 0px 20px 0px;
+  border: 2px solid #ddd;
+  border-radius: 2px;
+}
 
 .footer-section{
-    margin: 60px 94px;
-    background-color: #b6942f;
-    display: flex;
-    color: #fff;
-    height: 155px;
-    padding: 37px;
-    padding-left: 100px;
+    margin: 23px 75px;
+  background-color: #aa944f;
+  display: flex;
+  color: #fff;
+  height: 130px;
+  padding: 37px;
+    padding-left: 37px;
+  padding-left: 88px;
   
 }
 .footer-section-1 {
     flex: 1;
     box-sizing: border-box;
-    padding-top: 63px;
+    padding-top: 35px;
     font-size: 15px;
     line-height: 15px;
     font-family: 'Amiri', serif;
     position: relative;
     padding-left: 26px;
-    max-width: 164px;
+    max-width: 170px;
 }
 
 /* .footer-section-1:first-child::before */
@@ -273,17 +294,24 @@ body {
 
 }
 
+.border2 {
+    height: 50%;
+    width: 2px;
+    background-color: white;
+    margin-top: inherit;
+}
+
 .section-button-1{
     color: #fff;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     width: 180px;
     height: 10px;
-    margin-top: 58px;
+    margin-top: 35px;
     padding: 15px 20px 20px 10px;
-    border: 2.5px solid #ddd;
+    border: 2px solid #ddd;
     border-radius: 2px;
     margin-right: 0px;
-    margin-left: 94px;
+    margin-left: 185px;
 
 }
