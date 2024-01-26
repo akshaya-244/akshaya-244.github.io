@@ -17,8 +17,8 @@ body {
     overflow: hidden;
     width: 100vw;
     position: fixed;
-    color: white; /* Set text color to contrast with the background */
-    z-index: 1000; /* Set a high z-index to ensure the navbar stays on top of other elements */
+    color: white; 
+    z-index: 1000; 
     height: 76px;
     padding-top: 10px;
 }
@@ -55,7 +55,7 @@ body {
     /* width: 100vw;
     height: cal(100vh-100px); */
     z-index: 1; 
-    /* Add more styles as needed */
+    
 }
 
 .left-link,
@@ -86,7 +86,7 @@ body {
     float: right;
 }
 
-/* Change color on hover */
+
 .left-link a:hover,
 .right-links a:hover #right {
     background-color: #ddd;
@@ -144,8 +144,7 @@ body {
   margin-top: 50px;
   padding: 15px 10px 20px 10px;
   border: 2px solid #ddd;
-  border-radius: 2px; /* Optional: Add rounded corners */
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Optional: Add a subtle shadow */
+  border-radius: 2px; 
 
 }
 /* #button-1{
@@ -186,14 +185,14 @@ body {
 
 .image{
     text-align: center;
-    justify-content: space-around; /* Adjust this property for different spacing */
-    margin: 0 20px; /* Adjust the margin for spacing on the sides */
+    justify-content: space-around; 
+    margin: 0 20px; 
     
 }
 .image img {
     border: 20px;
     display: inline-block;
-    width: 80%; /* Adjust the width as needed */
+    width: 80%;
    }
 
 .outer-container{
