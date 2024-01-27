@@ -49,7 +49,7 @@ body {
 .text-overlay {
     position: relative;
   text-align: center;
-  top: 266px;
+  top: 316px;
   left: 646px;
   transform: translate(-50%, -50%);
   font-family: 'Amiri', serif;
