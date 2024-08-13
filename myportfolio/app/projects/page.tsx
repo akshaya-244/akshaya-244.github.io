@@ -1,0 +1,22 @@
+import Navbar from "@/components/Navbar"
+import ProjectComponent from "@/components/ProjectComponent"
+import Title from "@/components/Title"
+
+const Projects = () => {
+    return <div>
+        <Navbar />
+        <Title titleText="Projects"/>
+        <div className="md:w-3/4 mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
+        <ProjectComponent img="/algo-nest.jpeg" title="Algo Nest - Launching Soon!" description="Developing a Next.js application to build a LeetCode-inspired platform from scratch to help developers enhance their coding and algorithmic problem-solving skills. AlgoQuest offers a robust environment for practicing and mastering coding challenges." techStack="Next.js, React, Typescript, Prisma, Tailwind, Shadcn, Docker Redis" livePreview="" githubLink="https://github.com/akshaya-244/Algo-Nest" />
+        <ProjectComponent img="/plinko.png" title="Plinko Game" description="Constructed MVP exploiting React, Typescript completing project within 2 weeks and achieving 90% code coverage through unit tests, demonstrating rapid prototyping skills and strong foundation in TypeScript fundamentals" techStack="React, Typescript, Hono, Prisma, MongoDB, Vercel" livePreview="https://plinko-game-kvkx9b5y8-akshayas-projects-ad7758f9.vercel.app/login" githubLink="https://github.com/akshaya-244/plinko-game" />
+        <ProjectComponent img="/medium.png" title="Medium Clone" description="Passionately engineered Medium clone as a minimum viable product integrating TypeScript, Prisma, and Hono, with Cloudflare Workers for backend deployment, Vercel for frontend within 6-week timeline, receiving positive feedback from 80% of testers." techStack="React.js, Typescript, Node.js, MongoDB, Vercel" livePreview="https://medium-clone-bnab.vercel.app/signin" githubLink="https://github.com/akshaya-244/medium-clone" />
+        <ProjectComponent img="/trello.png" title="Trello" description="Developed an app using React, Node.js, and Swift, integrating eBay and Google APIs for real-time item search. Enhanced user experience with client-side validation and autocomplete. Deployed on Google Cloud for scalability and utilized MongoDB for seamless wish list management across devices." techStack="Nextjs, React.js, Express.js, Node.js, MongoDB, Vercel" livePreview="https://portfolio-dev-sigma-six.vercel.app/projects" githubLink="https://github.com/akshaya-244/trello-backend" />
+        <ProjectComponent img="/stock.png" title="Stock Stream" description="Established a stock investment and summary website processing 10,000+ stock data requests daily, along with an Android application designed with Java. integrating Finhub API for seamless stock listings and optimized trading functionality with auto-updating features, hourly charts (React Highcharts), news, and recommendations." techStack="React.js, HighCharts, FinhubAPI, Express.js, Node.js, Android, Java, MongoDB, Google Cloud Platform" livePreview="https://stock-search-advanced-24.uw.r.appspot.com/search/home" githubLink="https://github.com/akshaya-244/Stock-Stream" />
+        <ProjectComponent img="/stock2.png" title="Stock Vista" description="Developed a dynamic website leveraging Python Flask and server-side scripting techniques to integrate real-time data from Finhub Stock API and Polygon.io API. Showcased a company's essential information, live stock summary, latest news, and detailed performance analysis through interactive charts spanning six months" techStack="Python, Flask, HTML5, CSS, Javascript" livePreview="https://stock-assignment-webtech.wl.r.appspot.com/" githubLink="https://github.com/akshaya-244/Stock-Stream" />
+
+        </div>
+     
+    </div>
+}
+
+export default Projects
