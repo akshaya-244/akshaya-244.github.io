@@ -17,7 +17,7 @@ export default function Home() {
           />
         </div>
         <div className="flex flex-col justify-center items-start mb-44 font-sans px-4  animate-slide-in-left md:px-8">
-          <div className="text-xl md:text-3xl">Hi there I'm </div>
+          <div className="text-xl md:text-3xl">Hi there I am </div>
          <div className="text-4xl md:text-6xl font-bold  text-green-600">Akshaya Mohan</div> 
           <div className="text-2xl md:text-3xl font-semibold mt-2 "> A passionate Software Developer with a knack for solving complex problems. I specialize in crafting highly asynchronous, intricate websites with seamless webhooks integration and training advanced neural networks with <span className=" text-red-600">ATTENTION </span>to detail.</div> 
         </div>
