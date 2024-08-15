@@ -4,10 +4,10 @@ import Title from "./Title";
 const TechStackComponent = () => {
     return <div className="">
         <div className="w-3/4 mx-auto mt-20 text-xl md:text-2xl lg:text-3xl font-bold">Programming Languages</div>
-        <div className="mt-6 w-3/4 mx-auto   grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4">
+        <div className="mt-6 w-3/4 mx-auto   grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-4">
             <div className="flex flex-col items-center">
                 <Image src="/c++.png" alt="React" width={80} height={80} />
-                <div className="font-bold font-mono ">C++</div>
+                <div className="font-bold font-mono text-sm">C++</div>
             </div>
             <div className="flex flex-col items-center">
                 <Image src="/java.png" alt="React" width={80} height={80} />
@@ -50,7 +50,7 @@ const TechStackComponent = () => {
         </div>
 
         <div className="w-3/4 mx-auto mt-8 text-xl md:text-2xl lg:text-3xl font-bold">Web Development Frameworks</div>
-        <div className="mt-6 w-3/4 mx-auto   grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4">
+        <div className="mt-6 w-3/4 mx-auto   grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-4">
             <div className="flex flex-col items-center">
                 <Image src="/nextjs.png" alt="MySQL" width={80} height={80} />
                 <div className="font-bold font-mono ">NextJS</div>
@@ -73,7 +73,7 @@ const TechStackComponent = () => {
             </div>
         </div>
         <div className="w-3/4 mx-auto mt-8 text-xl md:text-2xl lg:text-3xl font-bold">Databases and Frameworks</div>
-        <div className="mt-6 w-3/4 mx-auto   grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4">
+        <div className="mt-6 w-3/4 mx-auto   grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-4">
             <div className="flex flex-col items-center">
                 <Image src="/mysql.png" alt="MySQL" width={80} height={80} />
                 <div className="font-bold font-mono ">MySQL</div>
@@ -89,7 +89,7 @@ const TechStackComponent = () => {
         </div>
 
         <div className="w-3/4 mx-auto mt-8 text-xl md:text-2xl lg:text-3xl font-bold">Tools</div>
-        <div className="mt-2 w-3/4 mx-auto   grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4">
+        <div className="mt-2 w-3/4 mx-auto   grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-4">
             <div className="flex flex-col items-center">
                 <Image src="/gcp.png" alt="Google Cloud Platform" width={80} height={80} />
                 <div className="font-bold font-mono ">GCP</div>
