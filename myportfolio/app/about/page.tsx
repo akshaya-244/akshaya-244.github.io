@@ -41,12 +41,7 @@ const About =() => {
         <Title titleText="Education"/>
         <AboutComponent  position="Masters in Computer Science" type="" date="August 2023 - May 2025" company="University of Southern California" place="Los Angeles, USA" content={masters} />
         <AboutComponent  position="Bachelors of Engineering in Information Technology" type="" date="August 2019 - May 2023" company="University of Mumbai" place="Mumbai, India" content={bachelors} />
-        <div className="w-3/4 mx-auto mt-20 text-xl md:text-2xl lg:text-3xl font-bold">Projects that got me into software dev</div>
-        <div className="md:w-3/4 mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
-        <ProjectComponent img="/memory-game.png" title="Memory Game" description="A classic memory game built with HTML, CSS, and JavaScript, where players flip over tiles to reveal matching pairs and test their memory skills." techStack="HTML5, CSS3, Javascript, Github" livePreview="https://akshaya-244.github.io/Memory-Game/" githubLink="https://github.com/akshaya-244/Memory-Game" />
-        <ProjectComponent img="/omni.png" title="Omnifoods" description="A CSS showcase website designed and developed to demonstrate my skills in creating visually appealing and responsive web experiences" techStack="HTML5, CSS3, Javascript" livePreview="https://portfolio-dev-sigma-six.vercel.app/projects" githubLink="https://github.com/akshaya-244/Omnifood" />
-        <ProjectComponent img="/pig.png" title="Pig game" description="A simple yet addictive dice game built with HTML, CSS, and JavaScript, where players take turns rolling dice to score points, trying to avoid the dreaded pig out to win the game!" techStack="HTML5, CSS3, Javascript" livePreview="https://akshaya-244.github.io/Pig-game/" githubLink="https://github.com/akshaya-244/Pig-game" />
-      </div>
+        
             
         </div>
 }

@@ -6,23 +6,20 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <div className="h-screen grid grid-cols-1 md:grid-cols-2 gap- py-24 bg-black text-white">
-      <div className="flex justify-center items-center px-4 md:px-8">
+      <div className="h-screen grid grid-cols-1 md:grid-cols-2   bg-black text-white">
+      <div className="flex justify-center items-center mb-44  animate-slide-in-left px-4 md:px-8">
           <Image
             src="/Akshaya.jpg"
             alt="Akshaya Mohan"
-            width={600}
-            height={500}
+            width={400}
+            height={400}
             className="w-full max-w-md md:max-w-lg"
           />
         </div>
-        <div className="flex flex-col justify-center items-start space-y- px-4 md:px-8">
-          <div className="text-xl md:text-2xl">Hi there, I am</div>
-          <div className="text-4xl md:text-6xl font-bold">Akshaya Mohan</div>
-          <div className="text-2xl md:text-4xl font-bold">Tech Enthusiast | Full Stack Developer</div>
-          <div className="text-xl md:text-3xl font-bold text-green-600 font-mono">
-            Building the future, one app at a time
-          </div>
+        <div className="flex flex-col justify-center items-start mb-44 font-sans px-4  animate-slide-in-left md:px-8">
+          <div className="text-xl md:text-3xl">Hi there I'm </div>
+         <div className="text-4xl md:text-6xl font-bold  text-green-600">Akshaya Mohan</div> 
+          <div className="text-2xl md:text-3xl font-semibold mt-2 "> A passionate Software Developer with a knack for solving complex problems. I specialize in crafting highly asynchronous, intricate websites with seamless webhooks integration and training advanced neural networks with <span className=" text-red-600">ATTENTION </span>to detail.</div> 
         </div>
        
       </div>

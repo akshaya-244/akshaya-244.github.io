@@ -18,7 +18,7 @@ const ProjectComponent = ({ img, title, description, techStack,livePreview, gith
             </CardHeader>
             <CardContent>
                 <div className="flex">
-                    <div className="font-bold">
+                    <div className="font-bold mr-2">
                         TechStack:
                     </div>
                     <div>
