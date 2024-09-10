@@ -32,7 +32,7 @@ const Navbar = () => {
           <Link className="hover:text-blue-500" href="https://www.linkedin.com/in/24-akshaya-mohan/">
             <LinkedinIcon />
           </Link>
-          <Link className="hover:text-green-500" href="https://drive.google.com/file/d/1z68TaOC7lz4ml897Ibt76gkJp6_7XeHR/view?usp=sharing">
+          <Link className="hover:text-green-500" href="https://drive.google.com/file/d/15Ju3PFFZyrHfMJM303Kl0ZbhfoSYKbcd/view?usp=sharing">
             <FileText />
           </Link>
           
