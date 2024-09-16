@@ -62,6 +62,9 @@ const Navbar = () => {
           <Link href="https://www.linkedin.com/in/24-akshaya-mohan/" onClick={toggleMenu}>
             <LinkedinIcon />
           </Link>
+          <Link className="hover:text-green-500" href="https://drive.google.com/file/d/15Ju3PFFZyrHfMJM303Kl0ZbhfoSYKbcd/view?usp=sharing">
+            <FileText />
+          </Link>
           <Link href="" onClick={toggleMenu}>
             <Mail />
           </Link>
