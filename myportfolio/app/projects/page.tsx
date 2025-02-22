@@ -11,7 +11,7 @@ const Projects = () => {
             img: "https://cdn.prod.website-files.com/6489f4e62de445dcec86d4db/652d1cf31dd602085dbb303e_PhotoAI-Tinder-AI-Photos.webp",
             title: "PhotoAI- Launching Soon!",
             description: "Developing a Next.js application to build PhotoAI, an AI-powered image generation and editing platform from scratch. PhotoAI leverages the capabilities of Fal.ai to provide seamless, high-quality image synthesis and transformations, enabling users to generate, enhance, and modify images with ease. The platform offers an intuitive interface for creative professionals and AI enthusiasts to explore the power of generative models.",
-            techStack: "Next.js, React, Typescript, Prisma, Tailwind, Shadcn, Digital Ocean, SquareSpace",
+            techStack: "Next.js, React, Typescript, Prisma, Tailwind, Shadcn, Digital Ocean, SquareSpace Cloudflare R2, nginx, CertBot",
             livePreview: "https://photoai.akshayamohan.com",
             githubLink: "https://github.com/akshaya-244/Photo-AI-Clone"
         },
@@ -19,7 +19,7 @@ const Projects = () => {
             img: "https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/665643dd8c7ac752237b5cef_Discord-OG-1200x630.jpg",
             title: "Nano Discord",
             description: "Built an end-to-end, real-time Discord clone. Key features include real-time messaging with Socket.io, video/audio calls, message editing, role management, invite system, server customization, and mobile-friendly UI using TailwindCSS and ShadcnUI. Includes Prisma ORM, PostgreSql, and NextAuth authentication.",
-            techStack: "Next.js, Typescript, Prisma, Tailwind, Shadcn, Websockets, LiveKit, UploadThing",
+            techStack: "Next.js, Typescript, Prisma, Tailwind, Shadcn, Websockets, LiveKit, UploadThing, Clerk",
             livePreview: "https://nano.discord.akshayamohan.com",
             githubLink: "https://github.com/akshaya-244/Nano-Discord"
         },
@@ -36,7 +36,7 @@ const Projects = () => {
             title: "Stock Stream",
             description: "Established a stock investment and summary website processing 10,000+ stock data requests daily, along with an Android application designed with Java. Integrating Finhub API for seamless stock listings and optimized trading functionality with auto-updating features, hourly charts (React Highcharts), news, and recommendations.",
             techStack: "React.js, HighCharts, FinhubAPI, Express.js, Node.js, Android, Java, MongoDB, Google Cloud Platform",
-            livePreview: "https://stock-search-advanced-24.uw.r.appspot.com",
+            livePreview: "https://github.com/akshaya-244/Stock-Stream",
             githubLink: "https://github.com/akshaya-244/Stock-Stream"
         },
         {
@@ -60,7 +60,7 @@ const Projects = () => {
             title: "Stock Vista",
             description: "Developed a dynamic website leveraging Python Flask and server-side scripting techniques to integrate real-time data from Finhub Stock API and Polygon.io API. Showcased a company's essential information, live stock summary, latest news, and detailed performance analysis through interactive charts spanning six months.",
             techStack: "Python, Flask, HTML5, CSS, Javascript",
-            livePreview: "https://stock-assignment-webtech.wl.r.appspot.com/",
+            livePreview: "https://github.com/akshaya-244/Stock-Stream",
             githubLink: "https://github.com/akshaya-244/Stock-Stream"
         },
         {

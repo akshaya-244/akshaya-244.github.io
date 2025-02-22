@@ -7,15 +7,15 @@ const AboutComponent = ({ position, type, date, company, place, content}: { posi
         
         <div className="mt-16 w-3/4 mx-auto ">
            
-            <div className="flex text-2xl justify-between text-slate-700 font-semibold ">
+            <div className="flex text-2xl justify-between text-gray-700 font-semibold ">
                <div>
                     {position}
                 </div> 
-                {type ? <Button variant="green" size="sm">
+                {type ? <Button variant="green" className="text-gray-600  " size="sm">
                     {type}
                 </Button > : <div></div>}
             </div>
-            <div className="flex text-md mt-2 justify-between text-slate-500 font-thinbold ">
+            <div className="flex text-md mt-2 justify-between text-gray-700  font-thinbold ">
                 <div className="flex justify-between ">
                     <div className="mr-2 flex">
                    <div className="mr-2">
