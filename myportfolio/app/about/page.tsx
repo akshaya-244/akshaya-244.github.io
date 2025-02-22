@@ -1,4 +1,5 @@
 import AboutComponent from "@/components/AboutComponent"
+import Footer from "@/components/Footer"
 import Navbar from "@/components/Navbar"
 
 import Title from "@/components/Title"
@@ -34,7 +35,7 @@ const About =() => {
         "6": "CSCI - 572 : Deep Learning and its Applications by Prof. Sathyanarayana Raghavachary",
 
     }
-    return <div>
+    return <div >
         <WhiteBackgroundWrapper>
 
         <Navbar/>
@@ -45,8 +46,11 @@ const About =() => {
         <Title titleText="Education"/>
         <AboutComponent  position="Masters in Computer Science" type="" date="August 2023 - May 2025" company="University of Southern California" place="Los Angeles, USA" content={masters} />
         <AboutComponent  position="Bachelors of Engineering in Information Technology" type="" date="August 2019 - May 2023" company="University of Mumbai" place="Mumbai, India" content={bachelors} />
+
+        <Footer />
         </WhiteBackgroundWrapper>
-            
+           
         </div>
+        
 }
 export default About

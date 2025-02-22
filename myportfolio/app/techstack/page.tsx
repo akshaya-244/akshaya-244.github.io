@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import TechStackComponent from "@/components/TechStackComponent";
 import Title from "@/components/Title";
@@ -9,6 +10,7 @@ const TechStack = () => {
         <Navbar />
         <TechStackComponent />
         </WhiteBackgroundWrapper>
+        <Footer /> 
     </div>
 }
 export default TechStack;

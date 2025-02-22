@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Title from "./Title";
+import Footer from "./Footer";
 
 const TechStackComponent = () => {
     return <div className="">
@@ -115,9 +116,10 @@ const TechStackComponent = () => {
                 <div className="font-bold font-mono ">Postman</div>
             </div>
             <div className="flex flex-col items-center">
-                <Image src="/postman.png" alt="Postman" width={80} height={80} />
+                <Image src="/DigitalOcean.png" alt="Postman" width={80} height={80} />
                 <div className="font-bold font-mono ">Digital Ocean</div>
             </div>
+          
         </div>
         
 
