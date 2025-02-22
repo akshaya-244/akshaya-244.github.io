@@ -125,12 +125,13 @@ const Projects = () => {
           >
             <CardHeader>
               <CardTitle>
-                <div className="relative w-[500px] h-[400px]">
+                <div className="relative w-full h-auto aspect-[5/4]">
                   <Image
                     src={project.img}
                     alt={project.title}
                     fill
                     className="rounded-md object-cover"
+                     sizes="(max-width: 768px) 100vw, 500px"
                   />
                 </div>
               </CardTitle>
