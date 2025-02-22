@@ -49,7 +49,7 @@ const About =() => {
 
         <Footer />
         </WhiteBackgroundWrapper>
-           
+           {/* ll? */}
         </div>
         
 }

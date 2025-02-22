@@ -11,6 +11,7 @@ const TechStack = () => {
         <TechStackComponent />
         </WhiteBackgroundWrapper>
         <Footer /> 
+        
     </div>
 }
 export default TechStack;
